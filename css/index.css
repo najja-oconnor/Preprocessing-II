@@ -168,6 +168,24 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+.btn {
+  background-color: #17A2B8;
+  border-radius: 10px;
+  height: 40px;
+  width: 180px;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  padding-top: 12px;
+}
+.navigation-bar {
+  display: flex;
+}
+.anchors {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
