@@ -183,11 +183,15 @@ img {
 }
 .navigation-bar {
   display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  justify-content: flex-end;
 }
 .anchors {
   text-decoration: none;
   font-size: 20px;
   color: black;
+  margin-right: 10px;
 }
 .footer {
   width: 100%;
