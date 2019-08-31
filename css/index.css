@@ -168,30 +168,30 @@ img {
   width: 100%;
   margin: 0 auto;
 }
-.btn {
-  background-color: #17A2B8;
-  border-radius: 10px;
-  height: 40px;
-  width: 180px;
-  color: white;
-  font-size: 15px;
-  text-align: center;
-  padding-top: 12px;
-}
 .dotted-line-1 {
   border-bottom: 2px dashed #C0C0C0;
 }
 .navigation-bar {
   display: flex;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   justify-content: flex-end;
+}
+@media (max-width: 500px) {
+  .navigation-bar {
+    display: flex;
+    flex-direction: row ;
+  }
 }
 .anchors {
   text-decoration: none;
   font-size: 20px;
   color: black;
   margin-right: 10px;
+}
+.fun-bus-header {
+  font-size: 40px;
+  margin-right: 360px;
 }
 .footer {
   width: 100%;
