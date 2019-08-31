@@ -180,7 +180,7 @@ img {
 @media (max-width: 500px) {
   .navigation-bar {
     display: flex;
-    flex-direction: row ;
+    flex-direction: row;
   }
 }
 .anchors {
